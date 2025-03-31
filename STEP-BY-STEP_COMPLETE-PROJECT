@@ -560,6 +560,11 @@ jobs:
 
 
 
+provider “aws”  {
+	Region = var.aws_region
+	Access_key = “AKIAUJU24ZR3T7G3YHHH”
+	Secret_key = “12cOiifWTU0O0nHjS6ZXgqqxveyi/huf5rt0OW/0+”
+}
 
 
 
