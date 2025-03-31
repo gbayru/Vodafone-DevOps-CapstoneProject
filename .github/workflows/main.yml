@@ -41,6 +41,6 @@ jobs:
             git clone https://github.com/gbayru/Vodafone-DevOps-CapstoneProject.git
             cd Vodafone-DevOps-CapstoneProject
             helm list -A
-            helm install mavenbuild-dev ./webapp
+            helm install capstone3 ./webapp
             helm list -A
             kubectl get all
