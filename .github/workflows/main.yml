@@ -36,7 +36,7 @@ jobs:
      password: root 
      port: 22 
      script: |
-      git clone https://github.com/Sonal0409/Vodafone-DevOps-CapstoneProject.git
+      git clone https://github.com/gbayru/Vodafone-DevOps-CapstoneProject.git
       cd Vodafone-DevOps-CapstoneProject
       helm list -A
       helm install mavenbuild-dev ./webapp
